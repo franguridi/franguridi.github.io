@@ -9,12 +9,26 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
 	    <link rel="icon" href="files/usc_icon.png">
+		<style>
+		* {
+		  box-sizing: border-box;
+		  }
+		
+		.row {
+		  display: flex;
+		}
+
+		/* Create two equal columns that sits next to each other */
+		.column {
+		  flex: 50%;
+		  padding: 10px;
+		  height: 300px; /* Should be removed. Only for demonstration */
+		}
+		</style>
 	</head>
 <body>
 	<!-- Start wrapper -->
 	<div class="wrapper">
-
-
 		
 		<div class="content">
         <p>
@@ -60,7 +74,19 @@
 
 <p>“Dyadic quantile regression," with Hyungsik Roger Moon.</a></p>
 
-			
+			<h2>Two Equal Columns</h2>
+
+		<div class="row">
+		  <div class="column" style="background-color:#aaa;">
+		    <h2>Column 1</h2>
+		    <p>Some text..</p>
+		  </div>
+		  <div class="column" style="background-color:#bbb;">
+		    <h2>Column 2</h2>
+		    <p>Some text..</p>
+		  </div>
+		</div>
+					
 		</div>
 		<br/>
 	</div> 
