@@ -14,7 +14,7 @@ img
 
 a
 {
-	text-decoration: none;
+	text-decoration: underline;
 }
 .wrapper
 {
@@ -67,7 +67,7 @@ a
 
 .nav li a:hover
 {
-	text-decoration: underline;
+	text-decoration: none;
 	background-color: #DADCF1;
   	color:black;
 }
