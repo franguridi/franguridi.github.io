@@ -21,14 +21,14 @@ a
 	margin: 0 auto 0 auto;
 	width: 760px;
 	text-align:left;
-	/* background-color: SeaShell; /*
+	/* background-color: SeaShell; */
 }
 
 /*--------------Header----------------------*/
 .header
 {
 	height: 80px;
-	/* background-color: SeaShell; /*
+	/* background-color: SeaShell; */
 }
 
 .header h1
@@ -60,16 +60,16 @@ a
 	font-family: Helvetica;
 	padding-left: 20px;
 	padding-top: 7px;
-  padding-bottom: 7px;	
+  	padding-bottom: 7px;	
 	padding-right:20px;
-  color:black;
+  	color:black;
 }
 
 .nav li a:hover
 {
-	text-decoration: none;
+	text-decoration: underline;
 	background-color: #DADCF1;
-  color:black;
+  	color:black;
 }
 
 .nav li a.on
@@ -92,7 +92,7 @@ a
 h3
 {
 	font-size: 15px;
-	/* background-color: SeaShell; /*
+	/* background-color: SeaShell; */
 	padding: 2px;
 	margin: 0;
 	font-family:  Helvetica;
@@ -103,7 +103,7 @@ h3
 .footer
 {
 	clear:both;
-	/* background-color: SeaShell; /*
+	/* background-color: SeaShell; */
 	text-align: center;
 	padding: 5px;
 	font-size: 10px;
