@@ -14,8 +14,13 @@ img
 
 a
 {
+	text-decoration: none;
+}
+a.hover
+{
 	text-decoration: underline;
 }
+
 .wrapper
 {
 	margin: 0 auto 0 auto;
