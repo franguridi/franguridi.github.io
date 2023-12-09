@@ -9,20 +9,42 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
 	    <link rel="icon" href="files/usc_icon.png">
+		<style>
+		* {
+		  box-sizing: border-box;
+		  }
+		
+		.row {
+		  display: flex;
+		}
+
+		/* Create two equal columns that sits next to each other */
+		.column {
+		  flex: 50%;
+		  padding: 10px;
+		/*  height: 300px; /* Should be removed. Only for demonstration */
+		}
+		</style>
 	</head>
 <body>
 	<!-- Start wrapper -->
 	<div class="wrapper">
-
-
 		
 		<div class="content">
-        <p>
-            <h1>Grigory Franguridi</h1>
-            Research scientist<br>
-            Center for Economic and Social Research<br>
-            University of Southern California
-        </p>
+
+		<div class="row">
+		  <div class="column" style="background-color:white;">
+		    <p>
+		            <h1>Grigory Franguridi</h1>
+		            Research scientist<br>
+		            Center for Economic and Social Research<br>
+		            University of Southern California
+		    </p>
+		  </div>
+		  <div class="column" style="background-color:white;">
+		    <img src="files/photo.jpg" alt="userpic" style="width:128px;height:128px;">
+		  </div>
+		</div>
 
         <hr>
 
@@ -59,8 +81,7 @@
 <p>“Nonparametric welfare analysis with additively separable heterogeneity"</a></p>
 
 <p>“Dyadic quantile regression," with Hyungsik Roger Moon.</a></p>
-
-			
+					
 		</div>
 		<br/>
 	</div> 
