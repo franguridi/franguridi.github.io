@@ -9,7 +9,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
 	    <link rel="icon" href="files/usc_icon.png">
-		<style>
+	    <style>
 		* {
 		  box-sizing: border-box;
 		  }
@@ -23,7 +23,32 @@
 		  flex: 50%;
 		  /* padding: 3px; */
 		}
-		</style>
+
+		details {
+		  user-select: none;
+		}
+		
+		details>summary span.icon {
+		  width: 24px;
+		  height: 24px;
+		  transition: all 0.3s;
+		  margin-left: auto;
+		}
+		
+		details[open] summary span.icon {
+		  transform: rotate(180deg);
+		}
+		
+		summary {
+		  display: flex;
+		  cursor: pointer;
+		}
+		
+		summary::-webkit-details-marker {
+		  display: none;
+		}
+
+	    </style>
 	</head>
 <body>
 	<!-- Start wrapper -->
@@ -60,6 +85,16 @@
 
 <p><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/517DA390E0369673FFABC5B93B3BAE4F/S0266466621000177a.pdf/uniform_bound_on_the_operator_norm_of_subgaussian_random_matrices_and_its_applications.pdf">"A uniform bound on the operator norm of sub-Gaussian random matrices and its applications,"</a> with Hyugsik Roger Moon, <i>Econometric Theory</i>, 38, 2022, 1073–1091</a></p>
 
+<details>
+  <summary>
+    Abstract
+    <span class="icon">👇</span>
+  </summary>
+  <p>
+    Text
+  </p>
+</details>
+			
 <h2>Working papers</h2>
 
 <p><a href="https://arxiv.org/pdf/2011.03073.pdf">“Bias correction for quantile regression estimators,”</a> (Dec 2022), with Bulat Gafarov and Kaspar W&uuml;trich, revise & resubmit at <i>Journal of Econometrics</i>. Previous draft: <a href="https://arxiv.org/pdf/2011.03073v4.pdf">Apr 2021</a></p>
