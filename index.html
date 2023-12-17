@@ -51,6 +51,21 @@
 		    */
 
 	    </style>
+		<script>
+			MathJax = {
+			  tex:
+			  {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			  },
+			  svg:
+			  {
+				fontCache: 'global'
+			  }
+			};
+		</script>
+		<script type="text/javascript" id="MathJax-script" async
+  			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+		</script>
 	</head>
 <body>
 	<!-- Start wrapper -->
@@ -92,7 +107,7 @@
     Abstract
   </summary>
   <p>
-    For an N×T random matrix X(β) with weakly dependent uniformly sub-Gaussian entries xit(β) that may depend on a possibly infinite-dimensional parameter β ∈ B, we obtain a uniform bound on its operator norm of the form E supβ∈B ||X(β)|| ≤ CK(√max(N, T) + γ2(B, dB)), where C is an absolute constant, K controls the tail behavior of (the increments of) xit(·), and γ2(B, dB) is Talagrand’s functional, a measure of multi-scale complexity of the metric space (B, dB). We illustrate how this result may be used for estimation that seeks to minimize the operator norm of moment conditions as well as for estimation of the maximal number of factors with functional data.
+    For an $N \times T$ random matrix $X(\beta)$ with weakly dependent uniformly sub-Gaussian entries $x_{it}(\beta)$ that may depend on a possibly infinite-dimensional parameter $\beta\in\mathbf{B}$, we obtain a uniform bound on its operator norm of the form $\mathbb{E} \sup_{\beta \in \mathbf{B}} \|X(\beta)\| \le CK\left( \sqrt{\max(N,T)} + \gamma_2(\mathbf{B}, d_{\mathbf{B}}) \right)$, where $C$ is an absolute constant, $K$ controls the tail behavior of (the increments of) $x_{it}(\cdot)$, and $\gamma_2(\mathbf{B}, d_{\mathbf{B}})$ is Talagrand’s functional, a measure of multi-scale complexity of the metric space $(\mathbf{B}, d_{\mathbf{B}})$. We illustrate how this result may be used for estimation that seeks to minimize the operator norm of moment conditions as well as for estimation of the maximal number of factors with functional data.
   </p>
 </details>
 			
