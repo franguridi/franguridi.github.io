@@ -6,7 +6,7 @@
 	    <meta name="description" content="Grigory Franguridi's website"/>
 	    <meta name="keywords" content="economics, econometrics, econometric theory, USC, CESR"/>
 	    <meta name="author" content="Grigory Franguridi"/>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
 	    <link rel="icon" href="files/usc_icon.png">
 	    <style>
@@ -44,11 +44,12 @@
 		  cursor: pointer;
 		}
 
-		    /*
+
 		summary::-webkit-details-marker {
 		  display: none;
 		}
-		    */
+
+
 
 	    </style>
 		<script>
@@ -75,12 +76,10 @@
 
 		<div class="row">
 		  <div class="column">
-		    <p>
-		            <h2>Grigory Franguridi</h2>
+		      		<h2>Grigory Franguridi</h2>
 		            Research scientist<br>
 		            <a href="https://cesr.usc.edu">Center for Economic and Social Research</a><br>
 		            <a href="https://www.usc.edu/">University of Southern California</a>
-		    </p>
 		  </div>
 		  <div class="column">
 		    <img src="files/photo.jpg" alt="userpic" style="width:128px;height:128px;">
@@ -96,30 +95,85 @@
 	    <li class="nav"><a href="files/cv.pdf">CV</a></li>
         </ul>
 
-        
         <hr>
 	<h2>Publications</h2>
 
-<p><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/517DA390E0369673FFABC5B93B3BAE4F/S0266466621000177a.pdf/uniform_bound_on_the_operator_norm_of_subgaussian_random_matrices_and_its_applications.pdf">"A uniform bound on the operator norm of sub-Gaussian random matrices and its applications,"</a> with Hyugsik Roger Moon, <i>Econometric Theory</i>, 38, 2022, 1073–1091</a></p>
+<a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/517DA390E0369673FFABC5B93B3BAE4F/S0266466621000177a.pdf/uniform_bound_on_the_operator_norm_of_subgaussian_random_matrices_and_its_applications.pdf">"A uniform bound on the operator norm of sub-Gaussian random matrices and its applications,"</a> with Hyugsik Roger Moon, <i>Econometric Theory</i>, 38, 2022, 1073–1091</a>
+
 
 <details>
   <summary>
-    Abstract
+	  <u>Abstract</u>
   </summary>
-  <p>
     For an $N \times T$ random matrix $X(\beta)$ with weakly dependent uniformly sub-Gaussian entries $x_{it}(\beta)$ that may depend on a possibly infinite-dimensional parameter $\beta\in\mathbf{B}$, we obtain a uniform bound on its operator norm of the form $\mathbb{E} \sup_{\beta \in \mathbf{B}} \|X(\beta)\| \le CK\left( \sqrt{\max(N,T)} + \gamma_2(\mathbf{B}, d_{\mathbf{B}}) \right)$, where $C$ is an absolute constant, $K$ controls the tail behavior of (the increments of) $x_{it}(\cdot)$, and $\gamma_2(\mathbf{B}, d_{\mathbf{B}})$ is Talagrand’s functional, a measure of multi-scale complexity of the metric space $(\mathbf{B}, d_{\mathbf{B}})$. We illustrate how this result may be used for estimation that seeks to minimize the operator norm of moment conditions as well as for estimation of the maximal number of factors with functional data.
-  </p>
 </details>
 			
 <h2>Working papers</h2>
 
-<p><a href="https://arxiv.org/pdf/2011.03073.pdf">“Bias correction for quantile regression estimators,”</a> (Dec 2022), with Bulat Gafarov and Kaspar W&uuml;trich, revise & resubmit at <i>Journal of Econometrics</i>. Previous draft: <a href="https://arxiv.org/pdf/2011.03073v4.pdf">Apr 2021</a></p>
+<a href="https://arxiv.org/pdf/2011.03073.pdf">“Bias correction for quantile regression estimators,”</a> (Dec 2022), with Bulat Gafarov and Kaspar W&uuml;trich, revise & resubmit at <i>Journal of Econometrics</i>. Previous draft: <a href="https://arxiv.org/pdf/2011.03073v4.pdf">Apr 2021</a>
 
-<p><a href="https://arxiv.org/pdf/2106.13856.pdf">“Nonparametric inference on counterfactuals in first-price auctions,”</a> (June 2022), with Pasha Andreyanov</a></p>
+<details>
+  <summary>
+	  <u>Abstract</u>
+  </summary>
+    We study the bias of classical quantile regression and instrumental variable quantile regression estimators. While being asymptotically first-order unbiased, these estimators can have
+	non-negligible second-order biases. We derive a higher-order stochastic expansion of these estimators using empirical process theory. Based on this expansion, we derive an explicit formula for
+	the second-order bias and propose a feasible bias correction procedure that uses finite-difference
+	estimators of the bias components. The proposed bias correction method performs well in
+	simulations. We provide an empirical illustration using Engel’s classical data on household expenditure.
+</details>
 
-<p><a href="https://arxiv.org/pdf/2207.09004.pdf">“Bias correction and uniform inference for the quantile density function,”</a> (July 2022)</a></p>
+<p></p>
 
-<p><a href="https://arxiv.org/pdf/2112.04637.pdf">“Efficient counterfactual estimation in semiparametric discrete choice models: a note on Chiong, Hsieh, and Shum (2017),”</a> (Dec 2021)</a></p>
+<a href="https://arxiv.org/pdf/2106.13856.pdf">“Nonparametric inference on counterfactuals in first-price auctions,”</a> (June 2022), with Pasha Andreyanov</a>
+
+<details>
+  <summary>
+	  <u>Abstract</u>
+  </summary>
+    In a classical model of the first-price sealed-bid auction with independent private
+	values, we develop nonparametric estimation and inference procedures for a class of
+	policy-relevant metrics, such as total expected surplus and expected revenue under
+	counterfactual reserve prices. Motivated by the linearity of these metrics in the quantile
+	function of bidders’ values, we propose a bid spacings-based estimator of the latter and
+	derive its Bahadur-Kiefer expansion. This makes it possible to construct exact uniform
+	confidence bands and assess the optimality of a given auction rule. Using the data on
+	U.S. Forest Service timber auctions, we test whether setting zero reserve prices in these
+	auctions was revenue maximizing.
+</details>
+
+<p></p>
+
+<a href="https://arxiv.org/pdf/2207.09004.pdf">“Bias correction and uniform inference for the quantile density function,”</a> (July 2022)</a>
+
+<details>
+  <summary>
+	  <u>Abstract</u>
+  </summary>
+    For the kernel estimator of the quantile density function (the derivative of the quantile function), I show how to perform the boundary bias correction, establish the rate of
+	strong uniform consistency of the bias-corrected estimator, and construct the confidence bands that are asymptotically exact uniformly over the entire domain $[0, 1]$.
+	The proposed procedures rely on the pivotality of the studentized bias-corrected estimator and known anti-concentration properties of the Gaussian approximation for its supremum.
+</details>
+
+<p></p>
+
+<a href="https://arxiv.org/pdf/2112.04637.pdf">“Efficient counterfactual estimation in semiparametric discrete choice models: a note on Chiong, Hsieh, and Shum (2017),”</a> (Dec 2021)</a>
+
+<details>
+  <summary>
+	  <u>Abstract</u>
+  </summary>
+	I suggest an enhancement of the procedure of Chiong, Hsieh, and Shum (2017) for calculating bounds
+	on counterfactual demand in semiparametric discrete choice models. Their algorithm relies on a system
+	of inequalities indexed by cycles of a large number $M$ of observed markets, and hence seems to require
+	computationally infeasible enumeration of all such cycles. I show that such enumeration is unnecessary
+	because solving the “fully efficient” inequality system exploiting cycles of all possible lengths $K=1,\dots,M$
+	can be reduced to finding the length of the shortest path between every pair of vertices in a complete
+	bidirected weighted graph on $M$ vertices. The latter problem can be solved using the Floyd–Warshall
+	algorithm with computational complexity $O(M^3)$, which takes only seconds to run even for thousands of
+	markets. Monte Carlo simulations illustrate the efficiency gain from using cycles of all lengths, which turns
+	out to be positive, but small.
+</details>
 
 	<h2>Work in progress</h2>
 			
