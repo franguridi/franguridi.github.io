@@ -4,7 +4,9 @@ body
 	text-align: center;
 	font-family: Helvetica;
 	font-size: 16px;
-	background-color: rgba(240, 255, 255, 0.3);
+	/*background-color: rgba(240, 255, 255, 0.3);*/
+	background-color:  #fffff1;
+	color: #333333;
 }
 
 img
@@ -17,7 +19,7 @@ img
 
 a
 {
-	color: mediumblue;
+	color: darkblue;
 	text-decoration: none;
 }
 a:hover
@@ -44,7 +46,7 @@ a:hover
 {
 	font-family: Helvetica;
 	font-size: 26px;
-	color: black;
+	color: #333333;
 	padding-top: 10px;
 	padding-left:50px;		
 	margin-bottom: 0;
