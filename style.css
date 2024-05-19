@@ -79,13 +79,13 @@ a:hover
 .nav li a:hover
 {
 	text-decoration: none;
-	background-color: #f3f2f2;
+	background-color:#f3f2f2;
   	color:#333333;
 }
 
 .nav li a.on
 {
-	background-color: #f3f2f2;
+	background-color:#f3f2f2;
 	color:#333333;
 }
 
