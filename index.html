@@ -171,75 +171,90 @@
 			<i>Econometric Theory</i>, 38, 2022, 1073–1091
 
 
-<details>
-  <summary>
-	  <u>Abstract</u>
-  </summary>
-    For an $N \times T$ random matrix $X(\beta)$ with weakly dependent uniformly sub-Gaussian entries $x_{it}(\beta)$ that may depend on a possibly infinite-dimensional parameter $\beta\in\mathbf{B}$, we obtain a uniform bound on its operator norm of the form $\mathbb{E} \sup_{\beta \in \mathbf{B}} \|X(\beta)\| \le CK\left( \sqrt{\max(N,T)} + \gamma_2(\mathbf{B}, d_{\mathbf{B}}) \right)$, where $C$ is an absolute constant, $K$ controls the tail behavior of (the increments of) $x_{it}(\cdot)$, and $\gamma_2(\mathbf{B}, d_{\mathbf{B}})$ is Talagrand’s functional, a measure of multi-scale complexity of the metric space $(\mathbf{B}, d_{\mathbf{B}})$. We illustrate how this result may be used for estimation that seeks to minimize the operator norm of moment conditions as well as for estimation of the maximal number of factors with functional data.
-</details>
+		<details>
+		  <summary>
+			  <u>Abstract</u>
+		  </summary>
+			For an $N \times T$ random matrix $X(\beta)$ with weakly dependent uniformly sub-Gaussian entries $x_{it}(\beta)$ that may depend on a possibly infinite-dimensional parameter $\beta\in\mathbf{B}$, we obtain a uniform bound on its operator norm of the form $\mathbb{E} \sup_{\beta \in \mathbf{B}} \|X(\beta)\| \le CK\left( \sqrt{\max(N,T)} + \gamma_2(\mathbf{B}, d_{\mathbf{B}}) \right)$, where $C$ is an absolute constant, $K$ controls the tail behavior of (the increments of) $x_{it}(\cdot)$, and $\gamma_2(\mathbf{B}, d_{\mathbf{B}})$ is Talagrand’s functional, a measure of multi-scale complexity of the metric space $(\mathbf{B}, d_{\mathbf{B}})$. We illustrate how this result may be used for estimation that seeks to minimize the operator norm of moment conditions as well as for estimation of the maximal number of factors with functional data.
+		</details>
 			
 <h2>Working papers</h2>
 
-			<a href="https://arxiv.org/pdf/2011.03073.pdf">"Bias correction for quantile regression estimators"</a> (Jan 2024)
-			<br>
-			with
-			<a href="https://gafarov.ucdavis.edu/" class="coauthor-link">Bulat Gafarov</a>
-			and
-			<a href="https://sites.google.com/site/wuethricheconomics/" class="coauthor-link">Kaspar W&uuml;thrich</a>
-			<br>
-			revise & resubmit, <i>Journal of Econometrics</i>
-			<br>
-			Previous drafts: <a href="https://arxiv.org/pdf/2011.03073v5.pdf">Dec 2022</a>, <a href="https://arxiv.org/pdf/2011.03073v4.pdf">Apr 2021</a>
 
-<details>
-  <summary>
-	  <u>Abstract</u>
-  </summary>
-    We study the bias of classical quantile regression and instrumental variable quantile regression estimators. While being asymptotically first-order unbiased, these estimators can have
-	non-negligible second-order biases. We derive a higher-order stochastic expansion of these estimators using empirical process theory. Based on this expansion, we derive an explicit formula for
-	the second-order bias and propose a feasible bias correction procedure that uses finite-difference
-	estimators of the bias components. The proposed bias correction method performs well in
-	simulations. We provide an empirical illustration using Engel’s classical data on household expenditure.
-</details>
+		<a href="https://arxiv.org/pdf/2410.11263">"Closed-form estimation and inference for panels with attrition and refreshment samples"</a> (<span style="color: red;">Oct 2024</span>)
+		<br>
+		with
+		<a href="https://sites.google.com/view/lidiakosenkova/home" class="coauthor-link">Lidia Kosenkova</a>
+
+		<details>
+		  <summary>
+			  <u>Abstract</u>
+		  </summary>
+			It has long been established that, if a panel dataset suffers from attrition, auxiliary (refreshment) sampling restores full identification under additional assumptions that still allow for nontrivial attrition mechanisms. Such identification results rely on implausible assumptions about the attrition process or lead to theoretically and computationally challenging estimation procedures. We propose an alternative identifying assumption that, despite its nonparametric nature, suggests a simple estimation algorithm based on a transformation of the empirical cumulative distribution function of the data. This estimation procedure requires neither tuning parameters nor optimization in the first step, i.e. has a closed form. We prove that our estimator is consistent and asymptotically normal and demonstrate its good performance in simulations. We provide an empirical illustration with income data from the Understanding America Study.
+		</details>
 
 <p></p>
 
-<a href="https://arxiv.org/pdf/2106.13856.pdf">"Nonparametric inference on counterfactuals in first-price auctions"</a> (June 2022)
-			<br>
-			with
-			<a href="https://pandreyanov.github.io/" class="coauthor-link">Pasha Andreyanov</a>
+		<a href="https://arxiv.org/pdf/2011.03073.pdf">"Bias correction for quantile regression estimators"</a> (Jan 2024)
+		<br>
+		with
+		<a href="https://gafarov.ucdavis.edu/" class="coauthor-link">Bulat Gafarov</a>
+		and
+		<a href="https://sites.google.com/site/wuethricheconomics/" class="coauthor-link">Kaspar W&uuml;thrich</a>
+		<br>
+		revise & resubmit, <i>Journal of Econometrics</i>
+		<br>
+		Previous drafts: <a href="https://arxiv.org/pdf/2011.03073v5.pdf">Dec 2022</a>, <a href="https://arxiv.org/pdf/2011.03073v4.pdf">Apr 2021</a>
 
-<details>
-  <summary>
-	  <u>Abstract</u>
-  </summary>
-    In a classical model of the first-price sealed-bid auction with independent private
-	values, we develop nonparametric estimation and inference procedures for a class of
-	policy-relevant metrics, such as total expected surplus and expected revenue under
-	counterfactual reserve prices. Motivated by the linearity of these metrics in the quantile
-	function of bidders’ values, we propose a bid spacings-based estimator of the latter and
-	derive its Bahadur-Kiefer expansion. This makes it possible to construct exact uniform
-	confidence bands and assess the optimality of a given auction rule. Using the data on
-	U.S. Forest Service timber auctions, we test whether setting zero reserve prices in these
-	auctions was revenue maximizing.
-</details>
-
-<p></p>
-
-<a href="https://arxiv.org/pdf/2207.09004.pdf">"Bias correction and uniform inference for the quantile density function"</a> (July 2022)
-
-<details>
-  <summary>
-	  <u>Abstract</u>
-  </summary>
-    For the kernel estimator of the quantile density function (the derivative of the quantile function), I show how to perform the boundary bias correction, establish the rate of
-	strong uniform consistency of the bias-corrected estimator, and construct the confidence bands that are asymptotically exact uniformly over the entire domain $[0, 1]$.
-	The proposed procedures rely on the pivotality of the studentized bias-corrected estimator and known anti-concentration properties of the Gaussian approximation for its supremum.
-</details>
+		<details>
+		  <summary>
+			  <u>Abstract</u>
+		  </summary>
+			We study the bias of classical quantile regression and instrumental variable quantile regression estimators. While being asymptotically first-order unbiased, these estimators can have
+			non-negligible second-order biases. We derive a higher-order stochastic expansion of these estimators using empirical process theory. Based on this expansion, we derive an explicit formula for
+			the second-order bias and propose a feasible bias correction procedure that uses finite-difference
+			estimators of the bias components. The proposed bias correction method performs well in
+			simulations. We provide an empirical illustration using Engel’s classical data on household expenditure.
+		</details>
 
 <p></p>
 
-<a href="https://arxiv.org/pdf/2112.04637.pdf">“Efficient counterfactual estimation in semiparametric discrete choice models: a note on Chiong, Hsieh, and Shum (2017)”</a> (Dec 2021)</a>
+		<a href="https://arxiv.org/pdf/2106.13856.pdf">"Nonparametric inference on counterfactuals in first-price auctions"</a> (June 2022)
+		<br>
+		with
+		<a href="https://pandreyanov.github.io/" class="coauthor-link">Pasha Andreyanov</a>
+
+		<details>
+		  <summary>
+			  <u>Abstract</u>
+		  </summary>
+			In a classical model of the first-price sealed-bid auction with independent private
+			values, we develop nonparametric estimation and inference procedures for a class of
+			policy-relevant metrics, such as total expected surplus and expected revenue under
+			counterfactual reserve prices. Motivated by the linearity of these metrics in the quantile
+			function of bidders’ values, we propose a bid spacings-based estimator of the latter and
+			derive its Bahadur-Kiefer expansion. This makes it possible to construct exact uniform
+			confidence bands and assess the optimality of a given auction rule. Using the data on
+			U.S. Forest Service timber auctions, we test whether setting zero reserve prices in these
+			auctions was revenue maximizing.
+		</details>
+
+<p></p>
+
+		<a href="https://arxiv.org/pdf/2207.09004.pdf">"Bias correction and uniform inference for the quantile density function"</a> (July 2022)
+
+		<details>
+		  <summary>
+			  <u>Abstract</u>
+		  </summary>
+			For the kernel estimator of the quantile density function (the derivative of the quantile function), I show how to perform the boundary bias correction, establish the rate of
+			strong uniform consistency of the bias-corrected estimator, and construct the confidence bands that are asymptotically exact uniformly over the entire domain $[0, 1]$.
+			The proposed procedures rely on the pivotality of the studentized bias-corrected estimator and known anti-concentration properties of the Gaussian approximation for its supremum.
+		</details>
+
+<p></p>
+
+<a href="https://arxiv.org/pdf/2112.04637.pdf">"Efficient counterfactual estimation in semiparametric discrete choice models: a note on Chiong, Hsieh, and Shum (2017)"</a> (Dec 2021)</a>
 
 <details>
   <summary>
@@ -305,7 +320,7 @@
 <p>"Nonparametric welfare analysis with additively separable heterogeneity"
 </p>
 
-<p>“Dyadic quantile regression"
+<p>"Dyadic quantile regression"
 	<br>
 	with
 	<a href="https://sites.google.com/usc.edu/moonr" class="coauthor-link">Hyungsik Roger Moon</a>
