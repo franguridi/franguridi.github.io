@@ -17,6 +17,7 @@
 		
 		.row {
 		  display: flex;
+		  flex-wrap: wrap;
 		}
 	
 		/* Create two equal columns that sit next to each other */
@@ -25,8 +26,15 @@
 		  /* padding: 3px; */
 		}
 
+		@media (max-width: 768px) {
+ 		 .column {
+			flex: 100%; /* Make columns full-width on small screens */
+		 }
+		}
+
 		details {
 		  user-select: none;
+		  width: 100%;
 		}
 		
 		details>summary span.icon {
