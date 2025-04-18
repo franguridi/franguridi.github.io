@@ -127,6 +127,27 @@
 		<div id="research"></div>
 		<h2>Publications</h2>
 
+		<a href="https://arxiv.org/pdf/2502.13314">"Debiasing functions of private statistics in postprocessing"</a> (Feb 2025)
+		<br>
+		with
+		<a href="https://people.seas.harvard.edu/~flavio/" class="coauthor-link">Flavio Calmon</a>,
+		<a href="https://sites.google.com/view/elbert-du/" class="coauthor-link">Elbert Du</a>,
+		<a href="https://dwork.seas.harvard.edu/" class="coauthor-link">Cynthia Dwork</a>,
+			and
+		<a href="https://sites.google.com/usc.edu/brian-finley/" class="coauthor-link">Brian Finley</a>
+		<br>
+		Accepted, <i>Proceedings of the 6th Annual Symposium on Foundations of Responsible Computing (FORC)</i>
+		<details>
+		  <summary>
+			  <u>Abstract</u>
+		  </summary>
+			Given a differentially private unbiased estimate $\tilde{q}=q(D) +\nu$ of a statistic $q(D)$, we wish to obtain unbiased estimates of <i>functions</i> of $q(D)$, such as $1/q(D)$, solely through post-processing of $\tilde{q}$, with no further access to the confidential dataset $D$.  To this end, we adapt the deconvolution method used for unbiased estimation in the statistical literature, deriving unbiased estimators for a broad family of twice-differentiable functions when the privacy-preserving noise $\nu$ is drawn from the Laplace distribution (Dwork <i>et al.</i>, 2006). We further extend this technique to a more general class of functions, deriving approximately optimal estimators that are unbiased for values in a user-specified interval (possibly extending to $\pm \infty$).
+			We use these results to derive an unbiased estimator for private means when the size $n$ of the dataset is not publicly known. In a numerical application, we find that a mechanism that uses our estimator to return an unbiased sample size and mean outperforms a mechanism that instead uses the previously known unbiased privacy mechanism for such means (Kamath <i>et al.</i>, 2023). We also apply our estimators to develop unbiased transformation mechanisms for per-record differential privacy, a privacy concept in which the privacy guarantee is a public function of a record's value (Seeman <i>et al.</i>, 2024).  Our mechanisms provide stronger privacy guarantees than those in prior work (Finley <i>et al.</i>, 2024) by using Laplace, rather than Gaussian, noise.
+			Finally, using a different approach, we go beyond Laplace noise by deriving unbiased estimators for polynomials under the weak condition that the noise distribution has sufficiently many moments.
+		</details>
+
+		<p></p>
+
 		<a href="https://doi.org/10.14283/jpad.2024.81">"Medical costs and caregiver burden of delivering disease-modifying Alzheimer's treatments with different duration and route of administration"</a>
 			<br>
 			with
@@ -191,27 +212,6 @@
 <!-- ---------------------------------------------------------------------------------------			-->
 
 <h2>Working papers</h2>
-
-	<a href="https://arxiv.org/pdf/2502.13314">"Debiasing functions of private statistics in postprocessing"</a> (Feb 2025)
-	<br>
-	with
-	<a href="https://people.seas.harvard.edu/~flavio/" class="coauthor-link">Flavio Calmon</a>,
-	<a href="https://sites.google.com/view/elbert-du/" class="coauthor-link">Elbert Du</a>,
-	<a href="https://dwork.seas.harvard.edu/" class="coauthor-link">Cynthia Dwork</a>,
-		and
-	<a href="https://sites.google.com/usc.edu/brian-finley/" class="coauthor-link">Brian Finley</a>
-	<br>
-	Accepted, <i>Proceedings of the 6th Annual Symposium on Foundations of Responsible Computing (FORC)</i>
-	<details>
-	  <summary>
-		  <u>Abstract</u>
-	  </summary>
-		Given a differentially private unbiased estimate $\tilde{q}=q(D) +\nu$ of a statistic $q(D)$, we wish to obtain unbiased estimates of <i>functions</i> of $q(D)$, such as $1/q(D)$, solely through post-processing of $\tilde{q}$, with no further access to the confidential dataset $D$.  To this end, we adapt the deconvolution method used for unbiased estimation in the statistical literature, deriving unbiased estimators for a broad family of twice-differentiable functions when the privacy-preserving noise $\nu$ is drawn from the Laplace distribution (Dwork <i>et al.</i>, 2006). We further extend this technique to a more general class of functions, deriving approximately optimal estimators that are unbiased for values in a user-specified interval (possibly extending to $\pm \infty$).
-		We use these results to derive an unbiased estimator for private means when the size $n$ of the dataset is not publicly known. In a numerical application, we find that a mechanism that uses our estimator to return an unbiased sample size and mean outperforms a mechanism that instead uses the previously known unbiased privacy mechanism for such means (Kamath <i>et al.</i>, 2023). We also apply our estimators to develop unbiased transformation mechanisms for per-record differential privacy, a privacy concept in which the privacy guarantee is a public function of a record's value (Seeman <i>et al.</i>, 2024).  Our mechanisms provide stronger privacy guarantees than those in prior work (Finley <i>et al.</i>, 2024) by using Laplace, rather than Gaussian, noise.
-		Finally, using a different approach, we go beyond Laplace noise by deriving unbiased estimators for polynomials under the weak condition that the noise distribution has sufficiently many moments.
-	</details>
-
-<p></p>
 
 	<a href="https://arxiv.org/pdf/2502.02734">"Kotlarski’s lemma for dyadic models"</a> (Feb 2025)
 	<br>
