@@ -7,7 +7,7 @@
 	    <meta name="keywords" content="economics, econometrics, econometric theory, USC, CESR"/>
 	    <meta name="author" content="Grigory Franguridi"/>
 <!--		commented out next line to check if it leads to correct scaling on a mobile device -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--		<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
 	    <link rel="icon" href="files/usc_icon.png">
 	    <style>
@@ -22,15 +22,28 @@
 	
 		/* Create two equal columns that sit next to each other */
 		.column {
-		  flex: 50%;
+			flex: 1 1 10%;
 		  /* padding: 3px; */
 		}
 
-		@media (max-width: 768px) {
- 		 .column {
-			flex: 100%; /* Make columns full-width on small screens */
-		 }
-		}
+		/*@media (max-width: 768px) {*/
+ 		/* .column {*/
+		/*	flex: 100%; !* Make columns full-width on small screens *!*/
+		/*	 flex-direction: column;*/
+		/*	align-items: center;*/
+		/* }*/
+		/*}*/
+
+		/*@media (max-width: 600px) {*/
+		/*  .header {*/
+		/*	flex-direction: column;*/
+		/*	align-items: center;*/
+		/*  }*/
+
+		/*  .photo {*/
+		/*	margin-top: 1em;*/
+		/*  }*/
+		/*}*/
 
 		details {
 		  user-select: none;
