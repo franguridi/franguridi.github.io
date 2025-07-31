@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 	<head>
     	<title>Grigory Franguridi | University of Southern California</title>
 	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -7,7 +7,7 @@
 	    <meta name="keywords" content="economics, econometrics, econometric theory, USC, CESR"/>
 	    <meta name="author" content="Grigory Franguridi"/>
 <!--		commented out next line to check if it leads to correct scaling on a mobile device -->
-<!--		<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
 	    <link rel="icon" href="files/usc_icon.png">
 	    <style>
@@ -23,27 +23,7 @@
 		/* Create two equal columns that sit next to each other */
 		.column {
 			flex: 1 1 10%;
-		  /* padding: 3px; */
 		}
-
-		/*@media (max-width: 768px) {*/
- 		/* .column {*/
-		/*	flex: 100%; !* Make columns full-width on small screens *!*/
-		/*	 flex-direction: column;*/
-		/*	align-items: center;*/
-		/* }*/
-		/*}*/
-
-		/*@media (max-width: 600px) {*/
-		/*  .header {*/
-		/*	flex-direction: column;*/
-		/*	align-items: center;*/
-		/*  }*/
-
-		/*  .photo {*/
-		/*	margin-top: 1em;*/
-		/*  }*/
-		/*}*/
 
 		details {
 		  user-select: none;
@@ -81,40 +61,22 @@
 		</style>
 
 		<script>
-			MathJax = {
-			  tex:
-			  {
-				inlineMath: [['$', '$'], ['\\(', '\\)']]
-			  },
-			  svg:
-			  {
-				fontCache: 'global'
-			  }
-			};
-		</script>
-
-		<script type="text/javascript" id="MathJax-script" async
-  			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-		</script>
-
-		<script type="text/javascript">
-		  MathJax = {
+		  MathJax =
+		  {
 			tex: {
 			  inlineMath: [['$', '$'], ['\\(', '\\)']],
 			  displayMath: [['$$', '$$'], ['\\[', '\\]']]
 			},
-			options: {
-			  ignoreHtmlClass: 'tex2jax_ignore'
-			}
+			svg: { fontCache: 'global' }
 		  };
 		</script>
+		<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
 	</head>
 <body>
 	<!-- Start wrapper -->
 	<div class="wrapper">
-		
 		<div class="content">
-
 		<div class="row">
 		  <div class="column">
 		      		<h2>Grigory Franguridi</h2>
@@ -127,7 +89,7 @@
 		  </div>
 		</div>
 
-        <hr>
+        <hr class="menu-divider">
 
         <ul class="nav">
             <li class="nav"><a href="#research">Research</a></li>
@@ -149,7 +111,6 @@
 		<br>
 		Forthcoming, <i>Journal of Econometrics</i>
 		<br>
-<!--		Previous drafts: <a href="https://arxiv.org/pdf/2011.03073v6.pdf">Jan 2024</a>, <a href="https://arxiv.org/pdf/2011.03073v5.pdf">Dec 2022</a>-->
 
 		<details>
 		  <summary>
