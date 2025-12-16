@@ -18,6 +18,12 @@ body
 	padding: 1em;
 }
 
+@media (min-width: 800px) {
+  .wrapper {
+    max-width: 860px;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

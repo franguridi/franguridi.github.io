@@ -2,25 +2,29 @@
 <html lang="en">
 	<head>
     	<title>Grigory Franguridi | University of Southern California</title>
-	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-	    <meta name="description" content="Grigory Franguridi's website"/>
-	    <meta name="keywords" content="economics, econometrics, econometric theory, USC, CESR"/>
-	    <meta name="author" content="Grigory Franguridi"/>
+	    <meta charset=UTF-8">
+	    <meta name="description" content="Grigory Franguridi is a research scientist at the University of Southern California working on econometrics">
+	    <meta name="keywords" content="economics, econometrics, econometric theory, USC, CESR">
+	    <meta name="author" content="Grigory Franguridi">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="canonical" href="https://franguridi.com/">
 	    <link href="style.css" rel="stylesheet" type="text/css"/>
-	    <link rel="icon" href="files/usc_icon.png">
+		<link rel="icon" href="files/usc_icon.png">
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
 				"@type": "Person",
 				"name": "Grigory Franguridi",
 				"alternateName": "Григорий Франгуриди",
-				"affiliation":
-				{
+				"affiliation": {
+				  "@type": "Organization",
+				  "name": "University of Southern California",
+				  "url": "https://www.usc.edu/",
+				  "subOrganization": {
 					"@type": "Organization",
-					"name": "University of Southern California",
-					"department": "Dornsife Center for Economic and Social Research",
-    				"url": "https://cesr.usc.edu"
+					"name": "Dornsife Center for Economic and Social Research",
+					"url": "https://cesr.usc.edu"
+				  }
 				},
 				"jobTitle": "Research Scientist",
 				"url": "https://franguridi.com",
@@ -28,12 +32,12 @@
 				"email": "mailto:franguri@usc.edu",
 				"address":
 				{
-                  "@type": "PostalAddress",
-                  "streetAddress": "635 Downey Way, VPD, Room 501K",
-                  "addressLocality": "Los Angeles",
-                  "addressRegion": "CA",
-                  "postalCode": "90089",
-                  "addressCountry": "US"
+					"@type": "PostalAddress",
+					"streetAddress": "635 Downey Way, VPD, Room 501K",
+					"addressLocality": "Los Angeles",
+					"addressRegion": "CA",
+					"postalCode": "90089",
+					"addressCountry": "US"
 				},
 				"sameAs":
 				[
@@ -58,7 +62,7 @@
 				}
 			}
 		</script>
-	    <style>
+		<style>
 		* {
 		  box-sizing: border-box;
 		  }
@@ -324,6 +328,26 @@
 
 <h2>Working papers</h2>
 
+    <a href="https://arxiv.org/pdf/2512.13270">"Raking for estimation and inference in panel models with nonignorable attrition and refreshment"</a> (<span style="color: #FF0000;">Dec 2025</span>)
+        <br>
+        with
+        <a href="https://economics.ucla.edu/person/jinyong-hahn/" class="coauthor-link">Jinyong Hahn</a>,
+        <a href="https://phoonhout.netlify.app/" class="coauthor-link">Pierre Hoonhout</a>,
+        <a href="https://dornsife.usc.edu/profile/arie-kapteyn/" class="coauthor-link">Arie Kapteyn</a>,
+        and
+        <a href="https://dornsife.usc.edu/profile/geert-ridder/" class="coauthor-link">Geert Ridder</a>
+    <br>
+	Submitted
+    <details>
+	  <summary>
+		  <u>Abstract</u>
+	  </summary>
+		In panel data subject to nonignorable attrition, auxiliary (refreshment) sampling may restore full identification under weak assumptions on the attrition process. Despite their generality, these identification strategies have seen limited empirical use, largely because the implied estimation procedure requires solving a functional minimization problem for the target density. We show that this problem can be solved using the iterative proportional fitting (raking) algorithm, which converges rapidly even with continuous and moderately high-dimensional data. This resulting density estimator is then used as input into a parametric moment condition. We establish consistency and convergence rates for both the raking-based density estimator and the resulting moment estimator when the distributions of the observed data are parametric. We also derive a simple recursive procedure for estimating the asymptotic variance. Finally, we demonstrate the satisfactory performance of our estimator in simulations and provide an empirical illustration using data from the Understanding America Study panel.
+    </details>
+
+            <p></p>
+
+
     <a href="https://arxiv.org/pdf/2511.21988">"Generalized method of moments with partially missing data"</a> (<span style="color: #FF0000;">Dec 2025</span>)
 	<br>
 	with
@@ -340,7 +364,7 @@
 <p></p>
 
 
-	<a href="https://arxiv.org/pdf/2502.02734">"Kotlarski’s lemma for dyadic models"</a> (Feb 2025)
+	<a href="https://arxiv.org/pdf/2502.02734">"Kotlarski's lemma for dyadic models"</a> (Feb 2025)
 	<br>
 	with
 	<a href="https://sites.google.com/usc.edu/moonr" class="coauthor-link">Hyungsik Roger Moon</a>
@@ -394,7 +418,7 @@
 
 <p></p>
 
-<a href="https://arxiv.org/pdf/2112.04637.pdf">"Efficient counterfactual estimation in semiparametric discrete choice models: a note on Chiong, Hsieh, and Shum (2017)"</a> (Dec 2021)</a>
+<a href="https://arxiv.org/pdf/2112.04637.pdf">"Efficient counterfactual estimation in semiparametric discrete choice models: a note on Chiong, Hsieh, and Shum (2017)"</a> (Dec 2021)
 
 <details>
   <summary>
@@ -418,30 +442,20 @@
 
 	<h2>Work in progress</h2>
 
-	<p>"Inference for partially identified moment models via regularized optimal transport"
+	"Inference in partially identified moment models via regularized optimal transport"
 	<br>
 	with
 	<a href="https://laurayuliu.com/" class="coauthor-link">Laura Liu</a>
-	</p>
-
-    <p>"Robust inference for functionals of optimal transport maps"
 	<br>
-	with
-	<a href="https://economics.ucla.edu/person/jinyong-hahn/" class="coauthor-link">Jinyong Hahn</a>
-	and
-	<a href="https://dornsife.usc.edu/profile/geert-ridder/" class="coauthor-link">Geert Ridder</a>
-    </p>
+    <details>
+	  <summary>
+		  <u>Abstract</u>
+	  </summary>
+	Partial identification often arises when the joint distribution of the data is known only up to its marginals. We consider the corresponding partially identified GMM model and develop a methodology for identification, estimation, and inference in this model. We characterize the sharp identified set for the parameter of interest via a support-function/optimal-transport (OT) representation. For estimation, we employ entropic regularization, which provides a smooth approximation to classical OT and can be computed efficiently by the Sinkhorn algorithm. We also propose a statistic for testing hypotheses and constructing confidence regions for the identified set. To derive the asymptotic distribution of this statistic, we establish a novel central limit theorem for the entropic OT value under general smooth costs. We then obtain valid critical values using the bootstrap for directionally differentiable functionals of Fang and Santos (2019). The resulting testing procedure controls size locally uniformly, including at parameter values on the boundary of the identified set. We illustrate its performance in a Monte Carlo simulation. Our methodology is applicable to a wide range of empirical settings, such as panels with attrition and refreshment samples, nonlinear treatment effects, nonparametric instrumental variables without large-support conditions, and Euler equations with repeated cross-sections.
+    </details>
 
-			
-<p>"Raking for estimation and inference in panel models with attrition and refreshment"
-	<br>
-	with
-	<a href="https://economics.ucla.edu/person/jinyong-hahn/" class="coauthor-link">Jinyong Hahn</a>,
-	<a href="https://phoonhout.netlify.app/" class="coauthor-link">Pierre Hoonhout</a>,
-	<a href="https://dornsife.usc.edu/profile/arie-kapteyn/" class="coauthor-link">Arie Kapteyn</a>,
-	and
-	<a href="https://dornsife.usc.edu/profile/geert-ridder/" class="coauthor-link">Geert Ridder</a>
-</p>
+	<p></p>
+
 
 <p>"Robust estimation and inference in panel models with attrition and refreshment"
 	<br>
